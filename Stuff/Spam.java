@@ -7,12 +7,12 @@ public class Spam
         Random generator = new Random();
         while (0 == 0)
         {
-            for (int counter = 1; counter <= 10; counter++)
+            for (int counter = 1; counter <= 500; counter++)
             {
-                int num = generator.nextInt(100001);
+                int num = generator.nextInt(10);
                 System.out.print(num);
             }
-            int num = generator.nextInt(100001);
+            int num = generator.nextInt(10);
             System.out.println(num);
         }
     }
